@@ -7,8 +7,8 @@ bot = telebot.TeleBot(BOT_TOKEN)
 
 TIMEOUT_CONNECTION = 5 # Таймаут переподключения
 
-WITHOUT_ICON = '' # Ссылка на иконку "c выражением"
-WITH_ICON = '' # Ссылка на иконку "без выражения"
+WITHOUT_ICON = 'https://github.com/Beslan06/10-Lesson-telegram-bot/blob/main/img/without.jpg' # Ссылка на иконку "c выражением"
+WITH_ICON = 'https://github.com/Beslan06/10-Lesson-telegram-bot/blob/main/img/with.jpg' # Ссылка на иконку "без выражения"
 
 # Сообщение при старте
 START_MESSAGE = """Отправь мне выражение, а я тебе скажу ответ)"""
